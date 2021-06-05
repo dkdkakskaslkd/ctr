@@ -1,0 +1,40 @@
+﻿@page
+@model ConstructWedDb.Pages.Brigades.DeleteModel
+
+@{
+    ViewData["Title"] = "Удалить";
+}
+
+<h1>Удалить</h1>
+
+<h3>Вы точно хотите удалить?</h3>
+<div>
+    <h4>Бригада</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Brigade.Staff1)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Brigade.Staff1.ID)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Brigade.Staff2)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Brigade.Staff2.ID)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Brigade.Staff3)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Brigade.Staff3.ID)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Brigade.ID" />
+        <input type="submit" value="Удалить" class="btn btn-danger" /> |
+        <a asp-page="./Index">Назад</a>
+    </form>
+</div>

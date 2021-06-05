@@ -1,0 +1,105 @@
+{
+  "version": 2,
+  "dgSpecHash": "t6ZQefQPrztUH+S/vw/ZfGUy02KgThBejNLtynuwmG5Jprb5BGodlJMhPZ2KqgBcUcma+dPLBbg+sVZFAcQHIA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\ladyt\\Desktop\\Новая папка\\Новая папка\\ConstructWedDb\\ConstructWedDb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ladyt\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.5\\microsoft.entityframeworkcore.design.5.0.5.nupkg.sha512",
+    "C:\\Users\\ladyt\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\5.0.4\\microsoft.entityframeworkcore.sqlite.5.0.4.nupkg.sha512",
+    "C:\\Users\\ladyt\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.4\\microsoft.entityframeworkcore.sqlserver.5.0.4.nupkg.sha512",
+    "C:\\Users\\ladyt\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.4\\microsoft.entityframeworkcore.tools.5.0.4.nupkg.sha512",
+    "C:\\Users\\ladyt\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.design\\5.0.2\\microsoft.visualstudio.web.codegeneration.design.5.0.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Пакет Microsoft.EntityFrameworkCore.Sqlite 5.0.4 несовместим с net50 (.NETFramework,Version=v5.0). Пакет Microsoft.EntityFrameworkCore.Sqlite 5.0.4 поддерживает: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Sqlite",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Пакет Microsoft.EntityFrameworkCore.Design 5.0.5 несовместим с net50 (.NETFramework,Version=v5.0). Пакет Microsoft.EntityFrameworkCore.Design 5.0.5 поддерживает: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Design",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Пакет Microsoft.VisualStudio.Web.CodeGeneration.Design 5.0.2 несовместим с net50 (.NETFramework,Version=v5.0). Пакет Microsoft.VisualStudio.Web.CodeGeneration.Design 5.0.2 поддерживает: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration.Design",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Пакет Microsoft.EntityFrameworkCore.Tools 5.0.4 несовместим с net50 (.NETFramework,Version=v5.0). Пакет Microsoft.EntityFrameworkCore.Tools 5.0.4 поддерживает: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Tools",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Пакет Microsoft.EntityFrameworkCore.SqlServer 5.0.4 несовместим с net50 (.NETFramework,Version=v5.0). Пакет Microsoft.EntityFrameworkCore.SqlServer 5.0.4 поддерживает: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Пакет Microsoft.EntityFrameworkCore.Sqlite 5.0.4 несовместим с net50 (.NETFramework,Version=v5.0) / win7-x86. Пакет Microsoft.EntityFrameworkCore.Sqlite 5.0.4 поддерживает: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Sqlite",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Пакет Microsoft.EntityFrameworkCore.Design 5.0.5 несовместим с net50 (.NETFramework,Version=v5.0) / win7-x86. Пакет Microsoft.EntityFrameworkCore.Design 5.0.5 поддерживает: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Design",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Пакет Microsoft.VisualStudio.Web.CodeGeneration.Design 5.0.2 несовместим с net50 (.NETFramework,Version=v5.0) / win7-x86. Пакет Microsoft.VisualStudio.Web.CodeGeneration.Design 5.0.2 поддерживает: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration.Design",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Пакет Microsoft.EntityFrameworkCore.Tools 5.0.4 несовместим с net50 (.NETFramework,Version=v5.0) / win7-x86. Пакет Microsoft.EntityFrameworkCore.Tools 5.0.4 поддерживает: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Tools",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Пакет Microsoft.EntityFrameworkCore.SqlServer 5.0.4 несовместим с net50 (.NETFramework,Version=v5.0) / win7-x86. Пакет Microsoft.EntityFrameworkCore.SqlServer 5.0.4 поддерживает: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0/win7-x86"
+      ]
+    }
+  ]
+}
